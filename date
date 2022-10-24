@@ -1,0 +1,43 @@
+
+#1
+
+from datetime import datetime
+
+# 2
+
+from datetime import datetime
+now = datetime.now()
+
+print now
+
+# 3
+
+from datetime import datetime
+now = datetime.now()
+
+print now.year
+print now.month
+print now.day
+
+# 4
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d' % (now.month, now.day, now.year)
+
+# 5
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d:%02d:%04d' % (now.hour, now.minute, now.second)
+
+# 6
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d %02d:%02d:%04d' % (now.day, now.month , now.year, now.hour, now.minute, now.second)
+
+
